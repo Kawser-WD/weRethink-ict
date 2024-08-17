@@ -12,13 +12,13 @@ const Navbar = () => {
     <div className="mb-[88px]">
       <nav className="bg-[#fefefe] fixed z-10 top-0 w-full">
         <Container>
-          <div className="flex justify-between items-center h-[88px] py-6 sm:px-0 px-2">
+          <div className="flex justify-between items-center h-[88px] py-6 md:px-2 lg:px-0 px-2">
             <div className="sm:w-auto w-full flex items-center justify-between">
               <Link to="/">
                 <img src={Logo} alt="logo" />
               </Link>
               <span
-                className="sm:hidden z-10 text-[#F8B84C]  text-xl"
+                className="sm:hidden z-10 text-[#00112c]  text-xl"
                 onClick={() => setOpen(!open)}
               >
                 {open ? (
